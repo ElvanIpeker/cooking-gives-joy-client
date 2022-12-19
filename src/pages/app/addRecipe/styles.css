@@ -1,0 +1,28 @@
+.add-recipe-wrapper {
+  margin: 20px auto;
+  max-width: 600px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.upload-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px dashed #80808080;
+}
+
+.upload-wrapper.unselected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.upload-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+.recipe-page-wrapper {
+  padding: 50px 5%;
+  height: 100%;
+}
+
+.recipe-page-wrapper .inner {
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.recipe-page-wrapper .inner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.recipe-page-wrapper .inner h5 {
+    margin: 0;
+}
+.recipe-page-wrapper .inner p {
+    margin: 5px 0;
+}
